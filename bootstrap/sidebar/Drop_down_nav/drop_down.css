@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.sidebar{
+    position: fixed;
+    height:100%;
+    width: 100%;
+    top: 0;
+    background-color:black;
+    z-index: -1;
+    overflow-x: hidden;
+}
+.sidebar .menu-list{
+    border-top:0.1px solid grey; 
+    margin: 50px;
+}
+.sidebar ul li{
+    color: white;
+    list-style-type:none;
+    padding: 15px 10px;
+    margin-left: 0;
+    border-bottom: 0.2px solid grey;
+    border-radius: 40px;
+    display:block;
+    transition:0.3s;
+    text-align:center
+}
+.sidebar ul li:hover{
+    background: grey;
+    color:black;
+    font-size: 30px;
+    transition: 0.2s
+}
+.toggle-btn{
+    position:absolute;
+    left:5px;
+    top: 5px;
+}
+.toggle-btn span{
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin: 3px;
+    background: black;
+    border: 1px solid white;
+}

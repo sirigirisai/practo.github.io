@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: url("cliff-man.jpg");
+}
+.sidebar{
+    position: fixed;
+    height:100%;
+    width: 0;
+    top: 0;
+    background-color:black;
+    z-index: -1;
+    overflow-x: hidden;
+    transition: 0.3s;
+    text-align: center;
+    box-shadow: 0px 0px 40px black;
+    color: white;
+}
+.sidebar .menu-list{
+    margin-top: 45px;
+}
+.sidebar ul li{
+    color: white;
+    list-style-type:none;
+    padding: 10px 10px;;
+    margin-left: 0;
+    border-bottom: 0.1px solid rgb(74, 72, 72);
+    display: block;
+}
+.sidebar ul li:hover{
+    background: grey;
+    color: black;
+    font-weight: bolder;
+}
+.show-btn{
+    position:absolute;
+    left:5px;
+    top: 5px;
+}
+.show-btn span{
+    display: block;
+    width: 25px;
+    height: 2.5px;
+    margin: 5px;
+    background: black;
+    transition: 0.5s;
+}
+.show-btn{
+    position:absolute;
+    left:5px;
+    top: 20px;
+    transition: 0.5s
+}
+.sidebar .hide-btn span{
+    display: block;
+    left: 200px;
+    width: 25px;
+    height: 2.5px;
+    margin: 5px;
+    background: white;
+    transition: 0.5s;
+}
+.sidebar .hide-btn{
+    position:absolute;
+    left:5px;
+    top: 20px;
+    transition: 0.5s;
+}

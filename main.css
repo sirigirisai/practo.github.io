@@ -1,0 +1,256 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+.main-nav .navbar-brand{
+    font-size: 14px;
+    z-index: -1;
+}
+.main-nav .nav-item a{
+    padding:6px;
+    margin: 0px;
+    color: grey;
+}
+.main-nav .nav-item{
+    font-size: 13px;
+    color: grey;
+}
+.logo-bar{
+    background: white;
+    margin-top: 43px;
+    z-index: 1;
+}
+.home_section{
+    margin-top: 100px;
+    height: 540px;
+    background-color: #28328c;
+}
+.home{
+    background: url("img/homepage.svg") top no-repeat;
+    min-height: 460px;
+    background-attachment:fixed;
+    background-position-y: 60px;
+}
+#search_box1{
+    border-radius: 0;
+    width: 300px;
+    height: 50px;
+    border: none;
+}
+#search_box2{
+    border-radius: 0;
+    width: 500px;
+    height: 50px;
+    border: none;
+    border-left:1px solid black;
+}
+
+.icon-navbar{
+    background: #1D2868;
+    padding:6px;
+}
+.icon-navbar a{
+    color: #B7BAD8;
+}
+.home_nav_li:not(:last-child){
+    border-right: 1px solid #B7BAD8;
+    height: 55px;
+}
+.home_nav_li{
+    align-content: center;
+    padding:0 0px; 
+    display: block;
+    color: #B7BAD1;
+}
+.blue-card{
+    box-shadow:0 6px 9px 0 hsla(0,0%,86%,.46) ;
+}
+.card-title-blue{
+    background: url("img/card_header.svg");
+    background-repeat: no-repeat;
+    background-color: #28328c;
+    background-position: right top;
+}
+.card-icon-flask{
+    color:rgb(77, 75, 75);
+    padding: 8px;
+    font-size: 33px;
+    border: 0.6px solid #6b6b6e;
+    border-radius:50%;
+}
+.card-icon-home{
+    color: rgb(77, 75, 75);
+    font-size: 25px;
+    border: 0.6px solid #6b6b6e;
+    border-radius: 50%;
+    padding: 6px;
+    height: 30px;
+}
+.card-list{
+    font-size: 12px;
+}
+.card-list ul{
+    padding: 0;
+}
+.blue-card-footer{
+    background-color:#EBF4F7;
+    padding: 13px;
+}
+
+/*****************Certificate section******************/
+.certificate-section{
+    background-color: #EFEFF4;
+    padding:100px 40px;
+    margin: 0;
+}
+.certificate-heading{
+    font-size: 40px;
+}
+.certificate-section ul li{
+    padding: 5px;
+}
+.fa-check{
+    font-size: 25px;
+    color: #17BDEF;
+    padding: 5px;
+}
+/***************Appointment section starts*****************/
+.appointment_section{
+    padding: 100px 40px;
+}
+.appointment-heading{
+    font-size: 40px;
+}
+
+/*****swiper*******/
+.swiper-container{
+    height: 150px;
+}
+.swiper-slide{
+      justify-content: center;
+      align-items: center;
+      padding: 0 30px 0 30px;
+}
+.swiper-star{
+    color: green;
+    display: inline-flex;
+    align-self:flex-start;
+    font-size: 12px;
+    padding: 5px;
+}
+.swiper-button-next, .swiper-button-prev{
+    background-size: 10px;
+    top:60px;
+}
+/******company logo footer**********/
+.company-brands{
+    width: 1000px;
+    overflow: hidden;
+    margin:0 auto;
+    margin-top:70px;
+}
+.company-logo{
+    background: url("img/practo logo/logo_india.png") top no-repeat;
+    height: 40px;
+    background-size: 200px; 
+    float: left;
+    margin-left:10px; 
+    filter: grayscale(20);
+    opacity: 0.4;
+    cursor: pointer;
+}
+.company-logo:hover{
+    opacity: 1;
+    filter: grayscale(0)
+}
+.company-logo.fortune{
+    background-position: -45px -10px;
+    width: 120px;
+}
+.company-logo.techcrunch{
+    background-position: -31px -70px;
+    width: 150px;
+}
+.company-logo.forbes{
+    background-position:-60px -130px; 
+    width: 90px;
+}.company-logo.theeconomictimes{
+    background-position:-10px -187px;
+    width: 200px; 
+}
+.company-logo.thewallstreetjournal{
+    background-position:-10px -245px;
+    width: 180px; 
+}
+.company-logo.thetimesofindia{
+    background-position:-45px -305px;
+    width: 110px; 
+}
+/************appointment section ends**********/
+
+
+/************consult section starts***********/
+.consult_section{
+    padding: 100px 40px;
+    background:#F2EEF5;
+}
+.consult-heading{
+    font-size: 40px;
+}
+
+/*****swiper*******/
+.swiper-container{
+    height: 150px;
+}
+.swiper-slide{
+      justify-content: center;
+      align-items: center;
+      padding: 0 30px 0 30px;
+}
+.swiper-star{
+    color: green;
+    display: inline-flex;
+    align-self:flex-start;
+    font-size: 12px;
+    padding: 5px;
+}
+.swiper-button-next, .swiper-button-prev{
+    background-size: 10px;
+    top:60px;
+}
+
+/*******************consult section ends********************/
+
+/**top articles section starts**/
+.articles-container {
+    height: 100%;
+    width: 100%;
+}
+.articles-wrapper{
+    padding:0px;
+    margin: 0px;
+    width: 100%;
+}
+.s{
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 334;
+    height: 350px;
+    padding: 0;
+    box-shadow: 0 1px 4px 0 #e0e0e5;
+    border: 1px solid #dedee8;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform .3s ease-out;
+}
+.article-next, .article-prev{
+    top:190px
+}
+.articles-container p{
+    font-size: 12px;
+}
+/**top articles section ends**/
